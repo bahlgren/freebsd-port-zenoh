@@ -13,7 +13,8 @@ LICENSE_FILE_EPL=	${WRKSRC}/LICENSE
 LICENSE_FILE_APACHE20=	${WRKSRC}/LICENSE
 LICENSE_DISTFILES_EPL=	${DISTNAME}${EXTRACT_SUFX}
 LICENSE_DISTFILES_APACHE20=	${DISTNAME}${EXTRACT_SUFX}
-.include "Makefile.cargo_licenses"
+.include "Makefile.crates_licenses"
+LICENSE:=	${LICENSE:O:u}
 
 BUILD_DEPENDS+=	rust-nightly>=1.47.0:lang/rust-nightly
 

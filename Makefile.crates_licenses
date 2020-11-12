@@ -1,4 +1,4 @@
-#LICENSE+=	APACHE20
+LICENSE+=	APACHE20
 LICENSE_DISTFILES_APACHE20+= \
 		rust/crates/aead-0.3.2.tar.gz \
 		rust/crates/aes-0.6.0.tar.gz \
@@ -50,8 +50,8 @@ LICENSE_DISTFILES_APACHE20+= \
 		rust/crates/crossbeam-queue-0.2.3.tar.gz \
 		rust/crates/crossbeam-utils-0.7.2.tar.gz \
 		rust/crates/crossbeam-utils-0.8.0.tar.gz \
-		rust/crates/crypto-mac-0.8.0.tar.gz \
 		rust/crates/crypto-mac-0.10.0.tar.gz \
+		rust/crates/crypto-mac-0.8.0.tar.gz \
 		rust/crates/ctr-0.6.0.tar.gz \
 		rust/crates/digest-0.9.0.tar.gz \
 		rust/crates/dirs-2.0.2.tar.gz \
@@ -81,8 +81,8 @@ LICENSE_DISTFILES_APACHE20+= \
 		rust/crates/hermit-abi-0.1.17.tar.gz \
 		rust/crates/hex-0.4.2.tar.gz \
 		rust/crates/hkdf-0.10.0.tar.gz \
-		rust/crates/hmac-0.8.1.tar.gz \
 		rust/crates/hmac-0.10.1.tar.gz \
+		rust/crates/hmac-0.8.1.tar.gz \
 		rust/crates/home-0.5.3.tar.gz \
 		rust/crates/http-types-2.7.0.tar.gz \
 		rust/crates/httparse-1.3.4.tar.gz \
@@ -188,8 +188,8 @@ LICENSE_DISTFILES_APACHE20+= \
 		rust/crates/vec_map-0.8.2.tar.gz \
 		rust/crates/version_check-0.9.2.tar.gz \
 		rust/crates/waker-fn-1.1.0.tar.gz \
-		rust/crates/wasi-0.9.0+wasi-snapshot-preview1.tar.gz \
 		rust/crates/wasi-0.10.0+wasi-snapshot-preview1.tar.gz \
+		rust/crates/wasi-0.9.0+wasi-snapshot-preview1.tar.gz \
 		rust/crates/wasm-bindgen-0.2.68.tar.gz \
 		rust/crates/wasm-bindgen-backend-0.2.68.tar.gz \
 		rust/crates/wasm-bindgen-futures-0.4.18.tar.gz \
@@ -223,7 +223,7 @@ LICENSE_DISTFILES_CC0-1.0+= \
 		rust/crates/blake3-0.3.7.tar.gz \
 		rust/crates/constant_time_eq-0.1.5.tar.gz
 
-#LICENSE+=	EPL
+LICENSE+=	EPL
 LICENSE_DISTFILES_EPL+= \
 		rust/crates/uhlc-0.2.1.tar.gz
 
@@ -290,8 +290,8 @@ LICENSE_DISTFILES_MIT+= \
 		rust/crates/crossbeam-queue-0.2.3.tar.gz \
 		rust/crates/crossbeam-utils-0.7.2.tar.gz \
 		rust/crates/crossbeam-utils-0.8.0.tar.gz \
-		rust/crates/crypto-mac-0.8.0.tar.gz \
 		rust/crates/crypto-mac-0.10.0.tar.gz \
+		rust/crates/crypto-mac-0.8.0.tar.gz \
 		rust/crates/csv-1.1.4.tar.gz \
 		rust/crates/csv-core-0.1.10.tar.gz \
 		rust/crates/ctr-0.6.0.tar.gz \
@@ -326,8 +326,8 @@ LICENSE_DISTFILES_MIT+= \
 		rust/crates/hermit-abi-0.1.17.tar.gz \
 		rust/crates/hex-0.4.2.tar.gz \
 		rust/crates/hkdf-0.10.0.tar.gz \
-		rust/crates/hmac-0.8.1.tar.gz \
 		rust/crates/hmac-0.10.1.tar.gz \
+		rust/crates/hmac-0.8.1.tar.gz \
 		rust/crates/home-0.5.3.tar.gz \
 		rust/crates/http-types-2.7.0.tar.gz \
 		rust/crates/httparse-1.3.4.tar.gz \
@@ -447,8 +447,8 @@ LICENSE_DISTFILES_MIT+= \
 		rust/crates/version_check-0.9.2.tar.gz \
 		rust/crates/waker-fn-1.1.0.tar.gz \
 		rust/crates/walkdir-2.3.1.tar.gz \
-		rust/crates/wasi-0.9.0+wasi-snapshot-preview1.tar.gz \
 		rust/crates/wasi-0.10.0+wasi-snapshot-preview1.tar.gz \
+		rust/crates/wasi-0.9.0+wasi-snapshot-preview1.tar.gz \
 		rust/crates/wasm-bindgen-0.2.68.tar.gz \
 		rust/crates/wasm-bindgen-backend-0.2.68.tar.gz \
 		rust/crates/wasm-bindgen-futures-0.4.18.tar.gz \
@@ -484,3 +484,4 @@ LICENSE_DISTFILES_UNLICENSE+= \
 LICENSE+=	ZLIB
 LICENSE_DISTFILES_ZLIB+= \
 		rust/crates/tinyvec-0.3.4.tar.gz
+
