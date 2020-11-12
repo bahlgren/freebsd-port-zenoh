@@ -19,6 +19,7 @@ TMP_DISTFILES=`mktemp -t distfiles` || exit 1
 
 trap "rm -f ${TMP_CRATES_LIC} ${TMP_DISTFILES}" EXIT
 
+make configure > /dev/null
 make cargo-crates-licenses > ${TMP_CRATES_LIC}
 
 make -V DISTFILES | sed -e 's/ /\
